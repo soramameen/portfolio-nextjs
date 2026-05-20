@@ -1,8 +1,5 @@
 import Link from "next/link";
 
-const basePath =
-  process.env.NODE_ENV === "development" ? "" : "/portfolio-nextjs";
-
 export default function Learning() {
   return (
     <main className="wrap">
