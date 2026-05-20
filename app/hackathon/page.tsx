@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 
+const basePath = process.env.NODE_ENV === "development" ? "" : "/portfolio-nextjs";
+
 export default function Hackathon() {
   return (
     <main className="wrap">
@@ -20,7 +22,7 @@ export default function Hackathon() {
 
         <figure className="photo">
           <Image
-            src="/images/hackathon.jpg"
+            src={`${basePath}/images/hackathon.jpg`}
             alt="ハッカソン参加時の集合写真"
             width={1000}
             height={585}
