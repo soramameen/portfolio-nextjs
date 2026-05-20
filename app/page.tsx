@@ -13,22 +13,22 @@ const entries = [
 export default function Home() {
   return(
   <>
-    <section>
+    <section className="hero">
       <h1>エンジニアを志してから、今までの経験</h1>
       <p>ハッカソンをきっかけにエンジニアを志し始めました</p>
     </section>
-    <main>
-      <section>
+    <main className="layout">
+      <section className="article-list">
         {entries.map((e) => (
           <article key={e.slug}>
-            <div>{e.date}</div>
+            <div className="date">{e.date}</div>
             <h2><Link href={`/${e.slug}`}>{e.title}</Link></h2>
             <p>{e.summary}</p>
-            <Link href={`/${e.slug}`}>詳細を読む</Link>
+            <Link className="more" href={`/${e.slug}`}>詳細を読む</Link>
           </article>
         ))}
       </section>
-      <aside>
+      <aside className="sidebar">
         <p>プロフィール</p>
       </aside>
     </main>

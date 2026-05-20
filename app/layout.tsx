@@ -1,3 +1,5 @@
+import "./globals.css";
+
 export default function RootLayout({
   children,
 }: {
@@ -6,8 +8,8 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body>
-        <header>
-          <div>soramame の記録</div>
+        <header className="site-header">
+          <div className="site-name">soramame の記録</div>
         </header>
         {children}
         <footer>2026 soramameen</footer>

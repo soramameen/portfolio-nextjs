@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "PAGES_BASE_PATH= next dev --webpack",
     "build": "next build --webpack",
     "start": "next start"
   },
