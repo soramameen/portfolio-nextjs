@@ -50,7 +50,7 @@ export default function Home() {
   <>
     <section className="hero">
       <h1>エンジニアを志してから、今までの経験</h1>
-      <p>ハッカソンをきっかけにエンジニアを志し始めました</p>
+      <p>ハッカソンをきっかけにエンジニアを志し、個人開発、フルタイムインターン、決済領域の開発経験を通じて、実務で価値を届けるために学んできたことをまとめています。</p>
     </section>
     <main className="layout">
       <section className="article-list">
@@ -67,7 +67,7 @@ export default function Home() {
         <section className="side-section">
           <h3>プロフィール</h3>
           <div className="profile-name">中嶋 空偉</div>
-          <p>岡山大学。Web開発、SaaS、決済領域、AIを使ったプロダクト開発に関心があります。</p>
+          <p>岡山大学。Web開発、SaaS、決済領域、AIをLLMを組み込んだプロダクト開発に関心があります。</p>
         </section>
         <section className="side-section">
           <h3>経験</h3>
