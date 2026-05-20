@@ -5,7 +5,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
-      <body>{children}</body>
+      <body>
+        <header>
+          <div>soramame の記録</div>
+        </header>
+        {children}
+        <footer>2026 soramameen</footer>
+      </body>
     </html>
   );
 }
